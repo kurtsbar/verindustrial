@@ -38,9 +38,10 @@ const About = () => {
             </div>
             <div className="relative">
               <img 
-                src="/Imagens/logoResumidoBranco-2.png" 
+                src="/Imagens/LogoVerIndustrialBranco.png" 
                 alt="Architecture and Structure" 
                 className="w-full  object-cover  opacity-80 "
+                referrerPolicy="no-referrer"
               />
 
             </div>
@@ -59,6 +60,7 @@ const About = () => {
                 src="/Imagens/FotoSitePessoal.png" 
                 alt="Rafael Vieira da Silva - Fundador Ver Industrial" 
                 className="w-full h-full object-contain"
+                referrerPolicy="no-referrer"
               />
             </div>
 

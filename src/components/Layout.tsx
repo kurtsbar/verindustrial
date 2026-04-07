@@ -6,9 +6,10 @@ import { useState, useEffect } from 'react';
 
 const CompanyLogo = () => (
   <img 
-    src="/Imagens/logoResumidoBranco-2.png" 
+    src="/Imagens/LogoVerIndustrialBranco.png" 
     alt="Ver Industrial Logo" 
     className="w-16 md:w-24 h-auto object-contain"
+    referrerPolicy="no-referrer"
   />
 );
 
