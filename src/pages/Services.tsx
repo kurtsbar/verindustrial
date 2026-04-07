@@ -67,7 +67,6 @@ const Services = () => {
             src="/Imagens/E-seguro-investir-em-fundo-de-investimento.jpg" 
             alt="Industrial Planning" 
             className="w-full h-full object-cover grayscale"
-            referrerPolicy="no-referrer"
           />
         </div>
         <div className="max-w-[1600px] mx-auto px-8 relative z-10">

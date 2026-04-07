@@ -113,7 +113,6 @@ const Home = () => {
                 src="/Imagens/3d-rendering-black-white-background.jpg" 
                 alt="Industrial Structure" 
                 className="rounded-2xl shadow-2xl grayscale opacity-60"
-                referrerPolicy="no-referrer"
               />
             </div>
           </div>
@@ -272,7 +271,6 @@ const Home = () => {
                 src="/Imagens/Como-fazer-um-planejamento-financeiro-eficiente-e-evitar-prejuizos-no-seu-negocio-1024x683.jpg" 
                 alt="Precision Engineering" 
                 className="rounded-2xl shadow-2xl opacity-60"
-                referrerPolicy="no-referrer"
               />
             </div>
             <div className="order-1 lg:order-2">
