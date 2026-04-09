@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown, Instagram, Linkedin } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const CompanyLogo = () => (
@@ -161,11 +161,33 @@ const Footer = () => {
 
           <div>
             <h4 className="text-brand-gold text-[11px] uppercase tracking-[0.2em] mb-6">Contato</h4>
-            <ul className="space-y-3 text-sm text-brand-white/60">
+            <ul className="space-y-3 text-sm text-brand-white/60 mb-8">
               <li>contato@verindustrial.com.br</li>
               <li>+55 (48) 98840-1690</li>
               <li>Florianópolis, SC — Brasil</li>
             </ul>
+            
+            <h4 className="text-brand-gold text-[11px] uppercase tracking-[0.2em] mb-4">Redes Sociais</h4>
+            <div className="flex space-x-4">
+              <a 
+                href="https://www.linkedin.com/company/verindustrial/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm text-brand-white/60 hover:text-brand-gold transition-colors"
+              >
+                <Linkedin size={18} />
+                <span>LinkedIn</span>
+              </a>
+              <a 
+                href="https://www.instagram.com/verindustrial_oficial/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm text-brand-white/60 hover:text-brand-gold transition-colors"
+              >
+                <Instagram size={18} />
+                <span>Instagram</span>
+              </a>
+            </div>
           </div>
         </div>
         

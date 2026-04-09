@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
+import { Instagram, Linkedin } from 'lucide-react';
 
 const About = () => {
   return (
@@ -34,6 +35,33 @@ const About = () => {
                 <p>
                   Atuamos como o parceiro estratégico do investidor, assegurando que cada decisão seja fundamentada em dados auditáveis e modelagens precisas, trazendo clareza e segurança à jornada de expansão empresarial.
                 </p>
+                
+                <div className="pt-6 border-t border-brand-white/10">
+                  <p className="text-brand-gold text-sm uppercase tracking-widest mb-4 font-bold">Conecte-se Conosco</p>
+                  <p className="text-brand-white/70 text-base mb-6 leading-relaxed">
+                    Nos siga nas nossas redes sociais. Publicamos conteúdos relevantes para a implementação de projetos e o acesso a crédito.
+                  </p>
+                  <div className="flex gap-6">
+                    <a 
+                      href="https://www.linkedin.com/company/verindustrial/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-brand-white/60 hover:text-brand-gold transition-colors text-sm font-bold uppercase tracking-wider"
+                    >
+                      <Linkedin size={18} />
+                      LinkedIn
+                    </a>
+                    <a 
+                      href="https://www.instagram.com/verindustrial_oficial/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-brand-white/60 hover:text-brand-gold transition-colors text-sm font-bold uppercase tracking-wider"
+                    >
+                      <Instagram size={18} />
+                      Instagram
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="relative">
