@@ -4,19 +4,21 @@ import { Mail, Phone, MapPin, MessageSquare } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <div className="pt-32">
+    <div className="min-h-screen pt-40 lg:pt-48 pb-20">
       <Helmet>
         <title>Contato | Ver Industrial - Inicie sua Estruturação</title>
         <meta name="description" content="Entre em contato com a Ver Industrial para diagnósticos técnicos ou solicitações de estruturação de investimentos industriais." />
       </Helmet>
-      <section className="py-20 bg-navy-gradient">
+      <section className="py-20">
         <div className="max-w-[1600px] mx-auto px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
             <div>
-              <h1 className="micro-label mb-8">Contato</h1>
-              <h2 className="text-4xl md:text-6xl font-serif text-brand-white mb-10 leading-tight font-bold">
-                Inicie sua <span className="italic">Estruturação</span>.
-              </h2>
+              <div className="mb-12">
+                <h1 className="text-4xl md:text-6xl font-serif text-brand-white leading-tight font-bold mb-4">
+                  Inicie sua <span className="italic">Estruturação</span>.
+                </h1>
+                <p className="text-brand-gold font-serif text-xl md:text-2xl italic leading-tight">Contato</p>
+              </div>
               <p className="text-brand-white/80 text-lg md:text-xl font-medium leading-relaxed mb-12">
                 Nossos projetos passam por uma análise prévia de compatibilidade. Buscamos investidores e empresários que valorizam o rigor metodológico e a profundidade analítica.
               </p>

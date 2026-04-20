@@ -28,7 +28,9 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/servicos" element={<Services />} />
-            <Route path="/servicos/:slug" element={<ServiceDetail />} />
+            <Route path="/servicos/investimento/:profile" element={<ServiceDetail />} />
+            <Route path="/servicos/diagnostico" element={<ServiceDetail />} />
+            <Route path="/servicos/sistemas-gerenciais" element={<ServiceDetail />} />
             <Route path="/quem-somos" element={<About />} />
             <Route path="/casos" element={<Cases />} />
             <Route path="/carreira" element={<Careers />} />
