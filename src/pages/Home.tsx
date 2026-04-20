@@ -48,7 +48,7 @@ const Home = () => {
                 <img 
                   src="/Imagens/VerIndustrialPBranca.png"
                   alt="Ver Industrial"
-                  className="w-full h-auto object-contain relative z-10 transition-all duration-1000 opacity-90 hover:opacity-100"
+                  className="w-110 h-auto object-contain relative z-10 transition-all duration-1000 opacity-90 hover:opacity-100"
                   referrerPolicy="no-referrer"
                 />
               </div>
