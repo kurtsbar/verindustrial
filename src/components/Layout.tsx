@@ -34,9 +34,9 @@ const Navbar = () => {
           name: 'Consultoria de Investimento', 
           path: '/servicos',
           subItems: [
-            { name: 'Quem está começando', path: '/servicos/investimento/comecando' },
-            { name: 'Empresas em crescimento', path: '/servicos/investimento/crescimento' },
-            { name: 'Empresas estruturadas', path: '/servicos/investimento/estruturadas' },
+            { name: 'Para quem está começando', path: '/servicos/investimento/comecando' },
+            { name: 'Para empresas em crescimento', path: '/servicos/investimento/crescimento' },
+            { name: 'Para empresas maduras', path: '/servicos/investimento/estruturadas' },
           ]
         },
         { name: 'Diagnóstico Estratégico', path: '/servicos/diagnostico' },
