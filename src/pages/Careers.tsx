@@ -4,18 +4,20 @@ import { Mail, CheckCircle2 } from 'lucide-react';
 
 const Careers = () => {
   return (
-    <div className="pt-32">
+    <div className="min-h-screen pt-40 lg:pt-48 pb-20">
       <Helmet>
         <title>Trabalhe Conosco | Ver Industrial</title>
         <meta name="description" content="Junte-se à Ver Industrial. Buscamos profissionais que valorizam o rigor metodológico e a profundidade analítica em projetos industriais." />
       </Helmet>
-      <section className="py-20 bg-navy-gradient">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-4xl">
-            <h1 className="micro-label mb-8">Trabalhe Conosco</h1>
-            <h2 className="text-4xl md:text-6xl font-serif text-brand-white mb-10 leading-tight font-bold">
-              Buscamos o <span className="italic">Rigor</span>.
-            </h2>
+            <div className="mb-12">
+              <h1 className="text-4xl md:text-6xl font-serif text-brand-white leading-tight font-bold mb-4">
+                Buscamos o <span className="italic">Rigor</span>.
+              </h1>
+              <p className="text-brand-gold font-serif text-xl md:text-2xl italic leading-tight">Trabalhe Conosco</p>
+            </div>
             <p className="text-brand-white/80 text-lg md:text-xl font-medium leading-relaxed mb-12">
               A Ver Industrial é formada por profissionais que possuem obsessão por método, clareza analítica e visão sistêmica. Se você acredita que a engenharia é a base para grandes decisões estratégicas, queremos conhecer seu perfil.
             </p>

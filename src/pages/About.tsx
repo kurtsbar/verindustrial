@@ -4,12 +4,12 @@ import { Instagram, Linkedin } from 'lucide-react';
 
 const About = () => {
   return (
-    <div className="pt-32">
+    <div className="min-h-screen pt-40 lg:pt-48 pb-20">
       <Helmet>
         <title>Quem Somos | Ver Industrial - Especialistas em Indústria</title>
         <meta name="description" content="Conheça a Ver Industrial, liderada por Rafael Vieira da Silva. Unimos rigor técnico e estratégia financeira para estruturar o crescimento industrial seguro." />
       </Helmet>
-      <section className="py-20 bg-navy-gradient relative overflow-hidden">
+      <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
             src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&q=80&w=2000" 
@@ -21,10 +21,12 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div>
-              <h1 className="micro-label mb-8">Quem Somos</h1>
-              <h2 className="text-4xl md:text-6xl font-serif text-brand-white mb-10 leading-tight font-bold">
-                Estruturamos o <span className="italic">Crescimento</span> com <span className="italic">Segurança</span>.
-              </h2>
+              <div className="mb-12">
+                <h1 className="text-4xl md:text-6xl font-serif text-brand-white leading-tight font-bold mb-4">
+                  Estruturamos o <span className="italic">Crescimento</span> com <span className="italic">Segurança</span>.
+                </h1>
+                <p className="text-brand-gold font-serif text-xl md:text-2xl italic leading-tight">Quem Somos</p>
+              </div>
               <div className="space-y-6 text-brand-white/80 font-medium leading-relaxed text-lg md:text-xl">
                 <p>
                   A Ver Industrial surgiu do compromisso em oferecer ao mercado uma visão sistêmica, unindo o rigor técnico da engenharia à sofisticação analítica da estratégia financeira.
