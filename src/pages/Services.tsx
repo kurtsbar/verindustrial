@@ -47,7 +47,7 @@ const Services = () => {
       <section className="py-32 bg-brand-white text-brand-black">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-24 text-center md:text-left">
-            <h3 className="text-3xl md:text-5xl font-serif font-bold mb-8">Estruturação negócios</h3>
+            <h3 className="text-3xl md:text-5xl font-serif font-bold mb-8">Estruturação de negócios</h3>
             <p className="text-xl md:text-2xl text-brand-black/60 font-medium leading-relaxed max-w-4xl">
               Desenvolvimento completo de projetos de investimentos industriais. Nosso objetivo é garantir que o capital seja alocado onde o retorno é mais provável, independente do seu tamanho ou fase de maturidade. 
             </p>
