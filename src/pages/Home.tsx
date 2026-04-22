@@ -91,7 +91,7 @@ const Home = () => {
           >
             <h2 className="text-brand-gold text-[11px] uppercase tracking-[0.2em] mb-6 font-bold">Para quem é</h2>
             <h3 className="text-4xl md:text-6xl font-serif font-bold text-brand-black leading-tight">
-              Soluções desenhadas para o seu estágio de <span className="italic"> maturidade</span>
+              Soluções desenhadas para o seu estágio de maturidade
             </h3>
           </motion.div>
 
