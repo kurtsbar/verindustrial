@@ -91,26 +91,26 @@ const Home = () => {
           >
             <h2 className="text-brand-gold text-[11px] uppercase tracking-[0.2em] mb-6 font-bold">Para quem é</h2>
             <h3 className="text-4xl md:text-6xl font-serif font-bold text-brand-black leading-tight">
-              Soluções desenhadas para o seu <span className="italic">estágio atual</span>.
+              Soluções desenhadas para o seu <span className="italic">estágio de maturidade:</span>.
             </h3>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Quem está começando',
+                title: 'Para quem está começando',
                 desc: 'Estruturação completa de novos negócios, com análise de viabilidade, desenho operacional e clareza sobre riscos e retornos.',
                 icon: <Rocket />,
                 path: '/servicos/investimento/comecando'
               },
               {
-                title: 'Empresas em crescimento',
+                title: 'Para empresas em crescimento',
                 desc: 'Organização de processos e estrutura produtiva para destravar escala com consistência e controle.',
                 icon: <TrendingUp />,
                 path: '/servicos/investimento/crescimento'
               },
               {
-                title: 'Empresas estruturadas',
+                title: 'Para empresas maduras',
                 desc: 'Avaliação estratégica de investimentos, identificação de oportunidades e otimização de retorno sobre capital.',
                 icon: <ShieldCheck />,
                 path: '/servicos/investimento/estruturadas'
